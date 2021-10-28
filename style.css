@@ -209,6 +209,28 @@ nav ul li a {
     padding:5px;
     font-size:20px;
 }
+/*social row------------*/
+.social-row{
+    display:flex;
+    width:60%;
+    margin:auto;
+    flex-basis:70%;
+    opacity: 0.9;
+}
+.social-col{
+    margin:auto;
+    padding:120px 0 30px 0;
+}
+.social-col img{
+  
+    width:120px;
+    margin:auto;
+    cursor:pointer;
+    border-radius:50%;
+}
+.social-col img:hover{
+    box-shadow:0 0 40px 0px rgb(94, 92, 92);  
+}
 /*-------footer*/
 #footer{
     padding:50px 0 30px;
@@ -325,7 +347,44 @@ hr{
         margin-left:5px;
     }
 
-   
+    /*EP ROW---------*/
+    .ep-row{
+        color:white;
+        width:100%;
+       
+        display:block;
+        margin:auto;
+        padding:5px;
+    }
+
+    .ep-row .ep{
+        width:90%;
+        padding:20px;
+    
+    }
+
+    .ep-row .tracks{
+        padding:20px;
+        width:70%;
+        margin:auto;
+    }
+
+    /*--------------*/
+   /*-social row-------*/
+   .social-row{
+    width:80%;
+  
+    }
+    .social-col{
+        padding:60px 0 15px 0;
+    }
+    .social-col img{
+        width:60px;
+    }
+
+
+
+
     .photo-section{
         padding:20px 5px;
         margin-bottom:5px;
@@ -337,33 +396,6 @@ hr{
         font-weight:bold;
         font-size:10px;
     }
-    
-
-
-
-
-    .ep-row{
-        padding:10px;
-    }
-    
-   
-    .ep-row .tracks{
-        padding:10px;
-    }
-    
-  
-    .tracks ol li a:hover {
-        font-size:14px;
-    }
-    .tracks ol li{
-        padding:3px;
-        font-size:14px;
-    }
-
-
-
-
-
 
     .footer-left-col, .footer-right-col{
         flex-basis:100%;
@@ -376,4 +408,10 @@ hr{
         flex-basis:50%;
         margin-bottom:30px;
     }
+
+   
+  
+
+
+    
 }
